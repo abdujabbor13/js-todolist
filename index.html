@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="container w-100 d-flex" style="justify-content: center; align-items: center;" >
+        <div class="card w-50 m-4 p-4 d-flex" style="border: 2px solid black; border-radius: 20px; align-items: center; flex-direction: column;">
+            <div class="adder_section d-flex w-100 " style="gap: 15px;">
+                <input id="work-inp" type="text" placeholder="Write your work..." class="form-control">
+                <button id="add-work-btn" class="btn btn-primary ">Add</button>
+            </div>
+            <h5 class="m-4">You have a <span style="color:green ;" id="num-work">0</span> task(s) to complate</h5>
+            <div class="wrapper_work w-100">
+                <!-- <div class="task form-control p-2 w-90 d-flex" style="justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <div class="task_content">
+                        <input type="checkbox">
+                        <label for="#">Edit Video</label>
+                    </div>
+                    <div class="action">
+                        <button onclick="changeInfo()" id="btn-square" class="btn btn-success"><i class="fa-solid fa-pen-to-square"></i></button>
+                        <button onclick="clearInfo()" id="btn-trash" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
