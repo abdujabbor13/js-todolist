@@ -16,7 +16,6 @@ addWorkBtn.addEventListener('click', () => {
     newContent.style.alignItems = 'center'
     newContent.style.marginBottom = '10px'
 
-
     newContent.innerHTML = `
       <div class="task_content">
         <input type="checkbox">
